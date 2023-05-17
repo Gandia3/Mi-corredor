@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif; 
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    align-items: center; 
+    justify-content: space-between; 
+    overflow: hidden;
+    background-color: #f29a2e;
+    position: fixed;
+  }
+
+  nav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .grupoLogo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logoImg {
+    height: 87px;
+    margin-top: 2mm;
+  }
+  
+
+.grupoLogInImg {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logImg {
+    height: 20px;
+    margin-right: 2rem;
+  }
+
+  .grupoLogInImg {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logImg {
+    height: 40px;
+    margin-right: 2rem;
+  }
+
+
+nav a {
+  margin-right: 2rem;
+}
+nav a:hover {
+  color: white;
+}
+
+@media (max-width: 700px) {
+    header {
+      flex-direction: column;
+    }
+  }
